@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">FS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-switch">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">3+ Years Experience</div>
+            <h1>Data Engineer</h1>
+            <p class="typing-text">Transforming <span class="highlight">Data</span> into <span class="highlight">Insights</span></p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+            <div class="tech-icons">
+                <div class="tech-icon"><i class="fab fa-python"></i></div>
+                <div class="tech-icon"><i class="fab fa-aws"></i></div>
+                <div class="tech-icon"><i class="fab fa-microsoft"></i></div>
+                <div class="tech-icon"><i class="fas fa-database"></i></div>
+            </div>
+        </div>
+        <div class="hero-shape-1"></div>
+        <div class="hero-shape-2"></div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am a passionate Data Engineer with <span class="highlight">3+ years of experience</span> in building scalable data pipelines and ETL processes. My expertise lies in Python, PySpark, and cloud technologies, helping organizations make data-driven decisions.</p>
+                    <p>Specialized in transforming complex data requirements into efficient and maintainable solutions using big data technologies like Hadoop, Hive, and cloud platforms including AWS and Azure.</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-text">Years<br>Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-text">Projects<br>Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-text">Tech<br>Stacks</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="programming">Programming</button>
+                <button class="tab-btn" data-tab="bigdata">Big Data</button>
+                <button class="tab-btn" data-tab="cloud">Cloud</button>
+            </div>
+            <div class="skills-content">
+                <div class="tab-content active" id="programming">
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3><i class="fas fa-code"></i> Programming & Frameworks</h3>
+                            <ul>
+                                <li>
+                                    <div class="skill-label">Python</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">PySpark</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">SQL</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="bigdata">
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3><i class="fas fa-database"></i> Big Data Technologies</h3>
+                            <ul>
+                                <li>
+                                    <div class="skill-label">Hadoop</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">Hive</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">Databricks</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="cloud">
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
+                            <ul>
+                                <li>
+                                    <div class="skill-label">Azure (Data Factory, Synapse, ML)</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">Azure Databricks & Delta Lake</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">Azure IoT & Stream Analytics</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="skill-label">AWS (S3, EMR, Glue)</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-badge">Azure</div>
+                    <h3><i class="fas fa-cloud"></i> Azure Synapse Analytics Integration</h3>
+                    <p>Developed an end-to-end enterprise data warehouse solution using Azure Synapse Analytics, integrating with multiple data sources and Power BI dashboards.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration:</span>
+                            <span class="detail-value">10 months</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Azure Data Engineer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">75% cost reduction</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Azure Synapse</span>
+                        <span>Azure SQL</span>
+                        <span>Power BI</span>
+                        <span>Python</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="synapse">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Azure</div>
+                    <h3><i class="fas fa-cogs"></i> IoT Data Processing Pipeline</h3>
+                    <p>Built a scalable IoT data processing pipeline using Azure IoT Hub, Stream Analytics, and Azure Functions, handling 10M+ daily sensor readings for a manufacturing client.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration:</span>
+                            <span class="detail-value">5 months</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Solution Architect</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">Real-time insights</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Azure IoT Hub</span>
+                        <span>Stream Analytics</span>
+                        <span>Azure Functions</span>
+                        <span>Cosmos DB</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="iot">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Azure</div>
+                    <h3><i class="fas fa-brain"></i> ML Model Deployment with Azure ML</h3>
+                    <p>Implemented an automated machine learning pipeline for predictive maintenance using Azure ML, deployed models to AKS, resulting in 40% reduction in equipment downtime.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Duration:</span>
+                            <span class="detail-value">7 months</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">ML Engineer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">40% less downtime</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Azure ML</span>
+                        <span>Kubernetes (AKS)</span>
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="ml">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Web Scraping</div>
+                    <h3><i class="fas fa-code"></i> LinkedIn Standard Scraper</h3>
+                    <p>Developed a comprehensive web scraper for LinkedIn with login handling, CAPTCHA solving assistance, and a user-friendly interface. Features include data extraction for People, Companies, and Jobs with Excel/CSV export capabilities.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Features:</span>
+                            <span class="detail-value">Multi-format export</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Full Stack Developer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">Automated data collection</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Selenium</span>
+                        <span>JavaScript</span>
+                        <span>Streamlit</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="linkedin-scraper">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Web Scraping</div>
+                    <h3><i class="fas fa-search"></i> LinkedIn Sales Navigator Scraper</h3>
+                    <p>Created a specialized scraper for LinkedIn Sales Navigator with advanced features including login management, CAPTCHA handling, and stop/resume functionality through an intuitive UI interface.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Features:</span>
+                            <span class="detail-value">Advanced scraping</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Full Stack Developer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">Enhanced lead generation</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Selenium</span>
+                        <span>Tkinter</span>
+                        <span>Streamlit</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="sales-navigator">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Web Scraping</div>
+                    <h3><i class="fas fa-robot"></i> Apollo Platform Scraper</h3>
+                    <p>Built an automated scraper for Apollo.io platform with robust login handling, CAPTCHA support, and stop/resume functionality through a user interface, enabling efficient data collection and export.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Features:</span>
+                            <span class="detail-value">Automated scraping</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Full Stack Developer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">Streamlined data collection</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Selenium</span>
+                        <span>JavaScript</span>
+                        <span>Selenium-Wire</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="apollo-scraper">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Automation</div>
+                    <h3><i class="fas fa-envelope"></i> Email Sending Automation Tool</h3>
+                    <p>Developed a user-friendly automation tool for sending bulk emails and trigger-based communications, streamlining the email outreach process.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Features:</span>
+                            <span class="detail-value">Bulk & trigger emails</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Developer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">Automated outreach</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>UI Development</span>
+                        <span>Email Protocols</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="email-automation">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="project-card">
+                    <div class="project-badge">Pattern Recognition</div>
+                    <h3><i class="fas fa-at"></i> Email Pattern Recognizer</h3>
+                    <p>Created an intelligent tool that recognizes common email patterns within organizations and generates potential email addresses for contacts, enhancing lead generation capabilities.</p>
+                    <div class="project-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Features:</span>
+                            <span class="detail-value">Pattern recognition</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Role:</span>
+                            <span class="detail-value">Developer</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Impact:</span>
+                            <span class="detail-value">Improved lead generation</span>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Regular Expressions</span>
+                        <span>Pattern Matching</span>
+                    </div>
+                    <a href="#" class="project-link" data-project="email-pattern">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>farhan.irf.shaikh@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 (967) 323-5768</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Pune, MH, India</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary form-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/farhan-irfan-shaikh/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/SkF-Python1" class="social-link"><i class="fab fa-github"></i></a>
+                    <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Farhan Shaikh. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Sitemap</a>
+            </div>
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal Templates -->
+    <div class="modal-container" id="modal-synapse">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Azure Synapse Analytics Integration</h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="project-section">
+                    <h3>Architecture Diagram</h3>
+                    <div class="architecture-diagram">
+                        <div class="arch-component source">
+                            <i class="fas fa-database"></i>
+                            <span>Data Sources</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component ingestion">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>ADF Pipelines</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component processing">
+                            <i class="fas fa-cogs"></i>
+                            <span>Synapse Analytics</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component serving">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Power BI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Process Workflow</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Data Ingestion</h4>
+                                <p>Extract data from multiple sources using Azure Data Factory pipelines</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Data Transformation</h4>
+                                <p>Process raw data using Synapse SQL pools and Spark notebooks</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Data Modeling</h4>
+                                <p>Create dimensional models and aggregated datasets</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Visualization</h4>
+                                <p>Build interactive dashboards with Power BI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Key Metrics</h3>
+                    <div class="metrics-container">
+                        <div class="metric-item">
+                            <div class="metric-value">10TB+</div>
+                            <div class="metric-label">Data Processed</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">75%</div>
+                            <div class="metric-label">Cost Reduction</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">65%</div>
+                            <div class="metric-label">Faster Queries</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">15+</div>
+                            <div class="metric-label">Dashboards</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Roles & Responsibilities</h3>
+                    <ul class="responsibilities-list">
+                        <li>Designed and implemented end-to-end data architecture using Azure Synapse Analytics</li>
+                        <li>Created data integration pipelines using Azure Data Factory</li>
+                        <li>Optimized SQL queries and Spark jobs for improved performance</li>
+                        <li>Implemented data quality checks and monitoring</li>
+                        <li>Designed dimensional models for analytics</li>
+                        <li>Collaborated with business stakeholders to define KPIs</li>
+                        <li>Built automated CI/CD pipelines for deployments</li>
+                        <li>Documented architecture and processes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal-iot">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>IoT Data Processing Pipeline</h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="project-section">
+                    <h3>Architecture Diagram</h3>
+                    <div class="architecture-diagram">
+                        <div class="arch-component source">
+                            <i class="fas fa-microchip"></i>
+                            <span>IoT Devices</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component ingestion">
+                            <i class="fas fa-exchange-alt"></i>
+                            <span>IoT Hub</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component processing">
+                            <i class="fas fa-stream"></i>
+                            <span>Stream Analytics</span>
+                        </div>
+                        <div class="arch-arrow split">→</div>
+                        <div class="arch-component-group">
+                            <div class="arch-component storage">
+                                <i class="fas fa-database"></i>
+                                <span>Cosmos DB</span>
+                            </div>
+                            <div class="arch-component compute">
+                                <i class="fas fa-bolt"></i>
+                                <span>Azure Functions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Process Workflow</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Data Collection</h4>
+                                <p>IoT devices send telemetry data to Azure IoT Hub</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Real-time Processing</h4>
+                                <p>Stream Analytics processes data on-the-fly using SQL-like queries</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Event Handling</h4>
+                                <p>Azure Functions react to anomalies and trigger alerts</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Data Storage</h4>
+                                <p>Processed data stored in Cosmos DB for querying</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Key Metrics</h3>
+                    <div class="metrics-container">
+                        <div class="metric-item">
+                            <div class="metric-value">10M+</div>
+                            <div class="metric-label">Daily Events</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">~2s</div>
+                            <div class="metric-label">Latency</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">99.9%</div>
+                            <div class="metric-label">Uptime</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">30%</div>
+                            <div class="metric-label">Maintenance Cost Reduction</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Roles & Responsibilities</h3>
+                    <ul class="responsibilities-list">
+                        <li>Designed IoT architecture on Azure to handle millions of events per day</li>
+                        <li>Implemented message routing and filtering in IoT Hub</li>
+                        <li>Created Stream Analytics jobs for real-time data processing</li>
+                        <li>Developed Azure Functions for anomaly detection and alerting</li>
+                        <li>Optimized Cosmos DB for efficient querying of time-series data</li>
+                        <li>Implemented device provisioning and management</li>
+                        <li>Built monitoring dashboard for IoT operations</li>
+                        <li>Created disaster recovery and high availability solutions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal-ml">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>ML Model Deployment with Azure ML</h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="project-section">
+                    <h3>Architecture Diagram</h3>
+                    <div class="architecture-diagram">
+                        <div class="arch-component source">
+                            <i class="fas fa-database"></i>
+                            <span>Data Lake</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component ingestion">
+                            <i class="fas fa-brain"></i>
+                            <span>Azure ML</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component processing">
+                            <i class="fas fa-cube"></i>
+                            <span>AKS Cluster</span>
+                        </div>
+                        <div class="arch-arrow">→</div>
+                        <div class="arch-component serving">
+                            <i class="fas fa-desktop"></i>
+                            <span>API Endpoints</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Process Workflow</h3>
+                    <div class="workflow-steps">
+                        <div class="workflow-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Data Preparation</h4>
+                                <p>Extract features from sensor data and historical maintenance records</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Model Training</h4>
+                                <p>Train predictive models using Azure ML pipelines</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Model Deployment</h4>
+                                <p>Deploy trained models to AKS for scalable inference</p>
+                            </div>
+                        </div>
+                        <div class="workflow-step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Monitoring & Retraining</h4>
+                                <p>Monitor model performance and retrain as needed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Key Metrics</h3>
+                    <div class="metrics-container">
+                        <div class="metric-item">
+                            <div class="metric-value">40%</div>
+                            <div class="metric-label">Reduced Downtime</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">85%</div>
+                            <div class="metric-label">Prediction Accuracy</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">$2M+</div>
+                            <div class="metric-label">Annual Savings</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-value">12hrs</div>
+                            <div class="metric-label">Advance Warning</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-section">
+                    <h3>Roles & Responsibilities</h3>
+                    <ul class="responsibilities-list">
+                        <li>Designed end-to-end ML solution architecture on Azure</li>
+                        <li>Created data preparation pipelines for feature engineering</li>
+                        <li>Developed ML models for predictive maintenance using Python and scikit-learn</li>
+                        <li>Implemented automated ML pipelines with Azure ML</li>
+                        <li>Deployed models to AKS for scalable, high-availability inference</li>
+                        <li>Built CI/CD pipelines for model deployment</li>
+                        <li>Implemented model monitoring and drift detection</li>
+                        <li>Created APIs for integration with existing systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
